@@ -1,17 +1,16 @@
 <template>
   <div class="family-section">
-      <div class="image-container">
-        <img src="./images/family.jpg" alt="Family Capital">
+    <div class="image-container">
+    </div>
+    <div class="text-container">
+      <h2>Мы работаем c<br><span>материнским капиталом!</span></h2>
+      <div class="circle">Оставить<br>заявку</div>
+      <div class="arrows">
+        <arrow-family-left/>
+        <span>1/2</span>
+        <arrow-family-right/>
       </div>
-      <div class="text-container">
-        <h2>Мы работаем c<br><span>материнским капиталом!</span></h2>
-        <div class="circle">Оставить<br>заявку</div>
-        <div class="arrows">
-          <arrow-family-left/>
-          <span>1/2</span>
-          <arrow-family-right/>
-        </div>
-      </div>
+    </div>
   </div>
 </template>
 
@@ -32,12 +31,12 @@ export default {
   display: flex;
   background-color: #eee;
 }
+.image-container {
+  background: url("./resource/images/bg-family.jpg");
+  background-size: cover;
+}
 .image-container, .text-container {
   flex: 1;
-}
-.image-container img {
-  max-width: 100%;
-  height: auto;
 }
 h2 {
   font-weight: 400;

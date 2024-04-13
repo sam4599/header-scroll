@@ -1,7 +1,7 @@
 <template>
-<div class="loader">
-  <img src="../gif/loader.gif">
-</div>
+  <div class="loader">
+    <img src="./resource/gif/loader.gif" alt="Loader">
+  </div>
 </template>
 
 <script>
@@ -14,6 +14,6 @@ export default {
 .loader {
   display: flex;
   justify-content: center;
-  margin: 32px 0;
+  margin: 24px 0;
 }
 </style>

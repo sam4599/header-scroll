@@ -2,16 +2,16 @@
   <div class="info-card">
     <div class="text-section">
       <h2> {{ title }} </h2>
-      <p> {{ text }} </p>
+      <p v-html="text"></p>
     </div>
-    {{ svgComponent }}
+    <img :src="svgComponent">
   </div>
 </template>
 
 <script>
 import SectionInfo from "@/components/SectionInfo.vue";
 export default {
-  name: 'InfoCard',
+  name: 'CardInfo',
   components: {
     SectionInfo
   },
@@ -23,18 +23,18 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .info-card {
   border-radius: 20px;
   display: flex;
   background: #FFFFFF;
-  width: 50%;
+  width: 49%;
   padding: 36px 44px;
-  margin-top: 52px;
+  justify-content: space-between;
 }
 .text-section > p {
   margin-top: 18px;
-  font-size: 14px;
+  font-size: 16px;
   color: #666667;
 }
 .text-section > h2 {
