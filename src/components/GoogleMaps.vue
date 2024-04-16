@@ -1,6 +1,6 @@
 <template>
   <div class="content-maps">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11086.82508408853!2d37.557076741446224!3d55.62704906592563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414ab2c84bbc9121%3A0x13d7018f0c576cae!2z0K_Qt9GL0YfQtdGB0LrQvtC1INC60LDQv9C40YnQtQ!5e1!3m2!1sru!2sru!4v1710442454189!5m2!1sru!2sru" width="1920" height="770" style="border:0; margin-bottom: -4px;"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11086.82508408853!2d37.557076741446224!3d55.62704906592563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414ab2c84bbc9121%3A0x13d7018f0c576cae!2z0K_Qt9GL0YfQtdGB0LrQvtC1INC60LDQv9C40YnQtQ!5e1!3m2!1sru!2sru!4v1710442454189!5m2!1sru!2sru" width="100%" height="770" style="border:0; margin-bottom: -4px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     <div class="global-container">
       <div class="contact-block">
         <h1>КОНТАКТЫ</h1>
@@ -42,7 +42,6 @@ export default {
 <style scoped>
 .content-maps {
   position: relative;
-  max-width: 100%;
 }
 .contact-block {
   position: absolute;
