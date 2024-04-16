@@ -15,8 +15,8 @@
 </template>
 
 <script>
-import ArrowFamilyLeft from "@/components/resource/svg/ArrowFamilyLeft.vue";
-import ArrowFamilyRight from "@/components/resource/svg/ArrowFamilyRight.vue";
+import ArrowFamilyLeft from "@/assets/resource/svg/ArrowFamilyLeft.vue";
+import ArrowFamilyRight from "../assets/resource/svg/ArrowFamilyRight.vue";
 export default {
   name: 'SectionFamily',
   components: {
@@ -32,7 +32,7 @@ export default {
   background-color: #eee;
 }
 .image-container {
-  background: url("./resource/images/bg-family.jpg");
+  background: url("../assets/resource/images/bg-family.jpg");
   background-size: cover;
 }
 .image-container, .text-container {

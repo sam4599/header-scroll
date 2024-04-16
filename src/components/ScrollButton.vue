@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import DoubleArrowTop from "@/components/resource/svg/ DoubleArrowTop.vue";
+import DoubleArrowTop from "../assets/resource/svg/ DoubleArrowTop.vue";
 
 export default {
   name: 'ScrollButton',

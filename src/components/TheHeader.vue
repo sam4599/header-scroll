@@ -4,7 +4,7 @@
     <div class="header-top container" >
       <div class="logo-section">
         <p>СТРОИТЕЛЬНАЯ КОМПАНИЯ</p>
-        <img src="./resource/images/logo.png" alt="Logo">
+        <img src="../assets/resource/images/logo.png" alt="Logo">
       </div>
       <div class="contacts-section">
         <p>Пишите нам: <span><a href="mailto:domstroy-st@bk.ru">domstroy-st@bk.ru</a></span></p>
@@ -20,11 +20,11 @@
           ЗАКАЗАТЬ ЗВОНОК
         </button>
         <div class="social-contacts">
-          <img src="./resource/images/youtube.png" alt="youtube">
-          <img src="./resource/images/instagram.png" alt="instagram">
-          <img src="./resource/images/vk.png" alt="vk">
-          <img src="./resource/images/whatsapp.png" alt="whatsapp">
-          <img src="./resource/images/telegram.png" alt="telegram">
+          <img src="../assets/resource/images/youtube.png" alt="youtube">
+          <img src="../assets/resource/images/instagram.png" alt="instagram">
+          <img src="../assets/resource/images/vk.png" alt="vk">
+          <img src="../assets/resource/images/whatsapp.png" alt="whatsapp">
+          <img src="../assets/resource/images/telegram.png" alt="telegram">
         </div>
       </div>
     </div>

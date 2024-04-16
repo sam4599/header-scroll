@@ -3,7 +3,7 @@
   <div class="container-footer">
     <div class="container">
       <div class="logo-section">
-        <img src="./resource/images/logo-2.png">
+        <img src="../assets/resource/images/logo-2.png" alt="logo">
         <div class="info">
           <h1>Полезно</h1>
           <p>Доставка и сборка</p>

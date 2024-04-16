@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import ArrowPrice from "@/components/resource/svg/ArrowPrice.vue";
+import ArrowPrice from "../assets/resource/svg/ArrowPrice.vue";
 
 export default {
   name: 'HeroSection',
@@ -33,12 +33,12 @@ export default {
   margin-top: 5%;
 }
 .bg-overlay {
-  background: url("./resource/images/bg-filter.png");
+  background: url("../assets/resource/images/bg-filter.png");
   width: 100%;
   background-size: cover;
 }
 .hero {
-  background: url("./resource/images/bg-image.png") no-repeat;
+  background: url("../assets/resource/images/bg-image.png") no-repeat;
   width: 100%;
   background-size: cover;
   display: flex;

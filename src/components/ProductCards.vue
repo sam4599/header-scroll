@@ -40,7 +40,7 @@ export default {
       cards: [
         {
           id: 1,
-          imageSrc: require('./resource/images/card-1.png'),
+          imageSrc: require('../assets/resource/images/card-1.png'),
           title: 'Каркасный дом с балконом LK-1',
           size: '4х6 м',
           area: '34.8 м2',
@@ -49,7 +49,7 @@ export default {
         },
         {
           id: 2,
-          imageSrc: require('./resource/images/card-2.png'),
+          imageSrc: require('../assets/resource/images/card-2.png'),
           title: 'Каркасный дом с балконом LK-2',
           size: '5х7 м',
           area: '40.5 м2',
@@ -58,7 +58,7 @@ export default {
         },
         {
           id: 3,
-          imageSrc: require('./resource/images/card-3.png'),
+          imageSrc: require('../assets/resource/images/card-3.png'),
           title: 'Каркасный дом с балконом LK-3',
           size: '4х6 м',
           area: '34.8 м2',
@@ -67,7 +67,7 @@ export default {
         },
         {
           id: 4,
-          imageSrc: require('./resource/images/card-4.png'),
+          imageSrc: require('../assets/resource/images/card-4.png'),
           title: 'Каркасный дом с балконом LK-4',
           size: '5х8 м',
           area: '43.2 м2',
@@ -76,7 +76,7 @@ export default {
         },
         {
           id: 5,
-          imageSrc: require('./resource/images/card-5.png'),
+          imageSrc: require('../assets/resource/images/card-5.png'),
           title: 'Каркасный дом с балконом LK-5',
           size: '4х6 м',
           area: '34.8 м2',
@@ -85,7 +85,7 @@ export default {
         },
         {
           id: 6,
-          imageSrc: require('./resource/images/card-6.png'),
+          imageSrc: require('../assets/resource/images/card-6.png'),
           title: 'Каркасный дом с балконом LK-6',
           size: '5х7 м',
           area: '40.5 м2',
@@ -94,7 +94,7 @@ export default {
         },
         {
           id: 7,
-          imageSrc: require('./resource/images/card-7.png'),
+          imageSrc: require('../assets/resource/images/card-7.png'),
           title: 'Каркасный дом с балконом LK-7',
           size: '4х6 м',
           area: '34.8 м2',
@@ -103,7 +103,7 @@ export default {
         },
         {
           id: 8,
-          imageSrc: require('./resource/images/card-8.png'),
+          imageSrc: require('../assets/resource/images/card-8.png'),
           title: 'Каркасный дом с балконом LK-8',
           size: '5х8 м',
           area: '43.2 м2',
@@ -112,7 +112,7 @@ export default {
         },
         {
           id: 9,
-          imageSrc: require('./resource/images/card-9.png'),
+          imageSrc: require('../assets/resource/images/card-9.png'),
           title: 'Каркасный дом с балконом LK-9',
           size: '5х8 м',
           area: '43.2 м2',
@@ -121,7 +121,7 @@ export default {
         },
         {
           id: 10,
-          imageSrc: require('./resource/images/card-10.png'),
+          imageSrc: require('../assets/resource/images/card-10.png'),
           title: 'Каркасный дом с балконом LK-10',
           size: '5х8 м',
           area: '43.2 м2',
@@ -130,7 +130,7 @@ export default {
         },
         {
           id: 11,
-          imageSrc: require('./resource/images/card-11.png'),
+          imageSrc: require('../assets/resource/images/card-11.png'),
           title: 'Каркасный дом с балконом LK-11',
           size: '4х6 м',
           area: '34.8 м2',
@@ -139,7 +139,7 @@ export default {
         },
         {
           id: 12,
-          imageSrc: require('./resource/images/card-12.png'),
+          imageSrc: require('../assets/resource/images/card-12.png'),
           title: 'Каркасный дом с балконом LK-12',
           size: '5х7 м',
           area: '40.5 м2',
@@ -148,7 +148,7 @@ export default {
         },
         {
           id: 13,
-          imageSrc: require('./resource/images/card-13.png'),
+          imageSrc: require('../assets/resource/images/card-13.png'),
           title: 'Каркасный дом с балконом LK-13',
           size: '4х6 м',
           area: '34.8 м2',
@@ -157,7 +157,7 @@ export default {
         },
         {
           id: 14,
-          imageSrc: require('./resource/images/card-14.png'),
+          imageSrc: require('../assets/resource/images/card-14.png'),
           title: 'Каркасный дом с балконом LK-14',
           size: '5х8 м',
           area: '43.2 м2',
@@ -166,7 +166,7 @@ export default {
         },
         {
           id: 15,
-          imageSrc: require('./resource/images/card-15.png'),
+          imageSrc: require('../assets/resource/images/card-15.png'),
           title: 'Каркасный дом с балконом LK-15',
           size: '5х8 м',
           area: '43.2 м2',

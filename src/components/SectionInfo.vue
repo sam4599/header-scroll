@@ -45,49 +45,49 @@ export default {
           id: 1,
           title: 'Работаем строго по договору',
           text: 'Стоимость строительства фиксированная.<br>И все наши обязательства прописаны в договоре.',
-          svgComponent: require('@/components/resource/svg/SvgInfo/certificate (1).svg')
+          svgComponent: require('../assets/resource/svg/SvgInfo/certificate (1).svg')
         },
         {
           id: 2,
           title: 'Выставка и собственное производство',
           text: 'Лучшее соотношение цены и качества. К нам возвращаются наши клиенты и рекомендуют своим знакомым.',
-          svgComponent: require('@/components/resource/svg/SvgInfo/badge.svg')
+          svgComponent: require('../assets/resource/svg/SvgInfo/badge.svg')
         },
         {
           id: 3,
           title: 'Честная цена и понятные условия',
           text: 'Поэтапная оплата. Нет скрытых платежей и мелких шрифтов.\n',
-          svgComponent: require('@/components/resource/svg/SvgInfo/money-sack.svg')
+          svgComponent: require('../assets/resource/svg/SvgInfo/money-sack.svg')
         },
         {
           id: 4,
           title: 'Экологически чистый материал',
           text: 'Сертифицированные, экологичные материалы от проверенных поставщиков.',
-          svgComponent: require('@/components/resource/svg/SvgInfo/goal 2.svg')
+          svgComponent: require('../assets/resource/svg/SvgInfo/goal 2.svg')
         },
         {
           id: 5,
           title: 'Фотоотчет процесса строительства',
           text: 'Бесплатный фото или видео отчет <br>(по договорённости)',
-          svgComponent: require('@/components/resource/svg/SvgInfo/running-man 2.svg')
+          svgComponent: require('../assets/resource/svg/SvgInfo/running-man 2.svg')
         },
         {
           id: 6,
           title: 'Гарантийное обслуживание любой постройки',
           text: 'Даем гарантию не на словах.',
-          svgComponent: require('@/components/resource/svg/SvgInfo/receipt.svg')
+          svgComponent: require('../assets/resource/svg/SvgInfo/receipt.svg')
         },
         {
           id: 7,
           title: 'Более 7 лет опыта',
           text: 'Современное и качественное строительство, опытными бригадами.',
-          svgComponent: require('@/components/resource/svg/SvgInfo/certificate.svg')
+          svgComponent: require('../assets/resource/svg/SvgInfo/certificate.svg')
         },
         {
           id: 8,
           title: 'Индивидуальные проекты',
           text: 'Возможны изменения проектов из каталога и строительство по индивидуальным планам.',
-          svgComponent: require('@/components/resource/svg/SvgInfo/quality.svg')
+          svgComponent: require('../assets/resource/svg/SvgInfo/quality.svg')
         }
 
       ]
@@ -98,13 +98,13 @@ export default {
 
 <style scoped>
 .bg-overlay {
-  background: url("./resource/images/bg-filter-info.png");
+  background: url("../assets/resource/images/bg-filter-info.png");
   width: 100%;
   background-size: cover;
   padding-bottom: 94px;
 }
 .bg-overlay-offer {
-  background: url("./resource/images/bg-filter-2.png");
+  background: url("../assets/resource/images/bg-filter-2.png");
   width: 100%;
   background-size: cover;
   padding: 112px 0 132px 0;
@@ -119,7 +119,7 @@ export default {
   padding-top: 84px;
 }
 .section-card {
-  background: url("./resource/images/bg-info-card.jpg");
+  background: url("../assets/resource/images/bg-info-card.jpg");
   width: 100%;
   height: 100%;
   background-size: cover;
